@@ -2,12 +2,12 @@ export default function ThemeCard() {
     return (
         <div className="w-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="/">
-                <img className="p-8 rounded-t-lg" src="https://images.pexels.com/photos/18264716/pexels-photo-18264716/free-photo-of-man-people-laptop-internet.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="product_image1" />
+                <img className="p-8 rounded-t-lg " src="https://images.pexels.com/photos/34897617/pexels-photo-34897617.jpeg?_gl=1*xbs1k0*_ga*MTU2MDQyMjczMy4xNzYyODU5NjA0*_ga_8JE65Q40S6*czE3NjQwNDQ4ODUkbzMkZzEkdDE3NjQwNDQ5NDckajU5JGwwJGgw" alt="product_image1" />
             </a>
             <div className="px-5 pb-5">
                 <a href="/">
                     <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
-                        Apple Watch Series 7 GPS, Aluminium Case, Starlight Sport
+                        Canon EOS 2000D 24.1MP Full HD Wi-Fi DSLR Camera With EF-S 18-55mm f/3.5-5.6 III Lens
                     </h5>
                 </a>
                 <div className="flex items-center mt-2.5 mb-5">
