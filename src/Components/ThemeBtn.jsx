@@ -1,9 +1,9 @@
 import useTheme from "../context/theme";
 
 export default function ThemeBtn() {
-    const {themeMode, lightTheme, darkTheme} = useTheme()
+    const {themeMode, toggleCurrentTheme} = useTheme()
 
-    const toggleBtn = e => e.currentTarget.checked ? darkTheme() : lightTheme()
+    const toggleBtn = e => toggleCurrentTheme(e.currentTarget.checked ? "dark" : "light")
 
     return (
         <label className="relative inline-flex items-center cursor-pointer">

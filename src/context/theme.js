@@ -3,8 +3,8 @@ import { createContext, useContext } from "react"
 // Not necessarily we have to pass state values and state methods only in the context, we can pass any values and any functions too 
 export const ThemeContext = createContext({
     themeMode: "light",
-    lightTheme: () => {},
-    darkTheme: () => {}
+    // We just declare the function here, the main functionality is written in the APP.jsx file
+    toggleCurrentTheme: () => {}
 })
 
 // We'll use the provider ultimately, so passing data to Context here through the Provider
