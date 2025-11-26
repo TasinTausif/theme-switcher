@@ -1,18 +1,55 @@
-# React + Vite
+# 🌗 Theme Switcher
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React + Tailwind CSS project that adds light and dark theme switching to your UI — letting you toggle between themes dynamically, with persistent preference.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎯 What is Theme Switcher
 
-## React Compiler
+**Theme Switcher** is a minimal example app demonstrating how to implement:
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- Light / Dark mode switching  
+- Persisting theme preference (e.g. in `localStorage`)  
+- Clean toggling logic using React hooks  
+- Tailwind CSS theming and styling  
 
-Note: This will impact Vite dev & build performances.
+Use this as a template for integrating theme toggle in larger React projects.  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack & Tools
+
+| Layer / Tool       | Purpose |
+|--------------------|---------|
+| **React**          | UI + logic (functional components + hooks) |
+| **Tailwind CSS**   | Utility-first styling & responsive design |
+| **LocalStorage / Browser API** | Persist user’s theme preference |
+| **Vite**           | Fast build & development server (if used) |
+
+---
+
+## ✅ Features
+
+- Toggle between **Light Mode** and **Dark Mode**  
+- Persist theme across page reloads / sessions  
+- Responsive UI with Tailwind CSS classes  
+- Easy to integrate into existing React apps  
+
+---
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites  
+- Node.js (v14 or later recommended)  
+- npm
+
+### Installation & Run  
+```bash
+git clone https://github.com/TasinTausif/theme-switcher.git
+cd theme-switcher
+npm install         
+npm run dev            
+
+
