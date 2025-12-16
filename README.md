@@ -4,6 +4,13 @@ A simple React + Tailwind CSS project that adds light and dark theme switching t
 
 ---
 
+## 📸 Screenshots
+
+### Toggle theme
+<img src="./screenshots/toggleTheme.png" alt="Toggle Theme" />
+
+---
+
 ## 🎯 What is Theme Switcher
 
 **Theme Switcher** is a minimal example app demonstrating how to implement:
